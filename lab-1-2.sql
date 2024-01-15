@@ -1,5 +1,6 @@
 -- Can I see a list of all teams by year and number of wins,
 -- starting with the fewest wins?
+SELECT name, year, wins FROM teams WHERE wins > 100 ORDER BY wins;
 
 -- Expected result: 2955 rows, ending with
 --
